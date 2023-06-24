@@ -1,0 +1,30 @@
+
+@font-face {
+    font-family: 'PlusJakartaDisplay'; /*a name to be used later*/
+    src: url('./../assets/font/PlusJakartaDisplay-Light.otf') format("truetype");
+    font-weight: 300;
+  }
+  @font-face {
+    font-family: 'PlusJakartaDisplay'; /*a name to be used later*/
+    src: url('./../assets/font/PlusJakartaDisplay-Regular.otf') format("truetype");
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: 'PlusJakartaDisplay'; /*a name to be used later*/
+    src: url('./../assets/font/PlusJakartaDisplay-Medium.otf') format("truetype");
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: 'PlusJakartaDisplay'; /*a name to be used later*/
+    src: url('./../assets/font/PlusJakartaDisplay-Bold.otf') format("truetype");
+    font-weight: 700;
+  }
+  html{
+    font-family: 'PlusJakartaDisplay', sans-serif !important;
+    }
+
+.bg-image{
+    background: url("./../assets/Gradient.png") no-repeat center bottom fixed;
+    background-size: cover;
+    
+}
